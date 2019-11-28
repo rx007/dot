@@ -1,11 +1,13 @@
-# Taps
+# taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'habitat-sh/habitat'
+tap 'chef/chef'
 
-# homebrews
+# brews
+brew 'archey'
 brew 'rbenv'
 brew 'ruby-build'
 brew 'nodebrew'
@@ -13,6 +15,7 @@ brew 'awscli'
 brew 'azure-cli'
 brew 'tmux'
 brew 'tmate'
+brew 'tmuxinator'
 brew 'hab'
 brew 'kubernetes-cli'
 brew 'kubernetes-helm'
@@ -37,6 +40,7 @@ brew 'packer'
 
 # casks
 # cask 'xquartz'
+cask 'chef-workstation'
 cask 'docker'
 cask 'java'
 cask 'virtualbox'
@@ -44,3 +48,9 @@ cask 'vagrant'
 cask 'google-cloud-sdk'
 cask 'aerial'
 cask 'keybase'
+cask 'spotify'
+
+# fonts
+cask 'font-roboto'
+cask 'font-hack-nerd-font'
+cask 'font-source-code-pro-for-powerline'
